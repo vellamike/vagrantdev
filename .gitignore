@@ -1,5 +1,6 @@
 #temp files
 *~
+*#*
 
 # Vagrant
 .vagrant/
