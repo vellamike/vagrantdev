@@ -1,0 +1,13 @@
+#temp files
+*~
+
+# Vagrant
+.vagrant/
+
+# Python
+bin/
+build/
+include/
+lib/
+local/
+.pyc
