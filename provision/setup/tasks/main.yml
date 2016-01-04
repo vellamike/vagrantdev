@@ -21,6 +21,9 @@
       # Scientific tools
       - ipython
 
+      # Development tools
+      - emacs
+
       # Shell tools
       - zsh
 
