@@ -1,3 +1,7 @@
+- name: Add repositories
+  sudo: yes
+  apt_repository: repo='ppa:evarlast/golang1.5' state=present
+
 - name: Apt installs
   sudo: yes
   apt: pkg={{ item }} state=installed update_cache=yes
@@ -31,6 +35,9 @@
       - git
       - curl
       - tmux
+
+      # Programming languages
+      - golang-go
 
 - name: Pip installs
   sudo: yes
